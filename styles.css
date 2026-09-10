@@ -208,6 +208,14 @@ a { color: inherit; }
   line-height: 1;
 }
 
+.proof-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .scroll-note {
   margin: 40px auto 0;
   max-width: 760px;
