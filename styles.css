@@ -134,8 +134,22 @@ a { color: inherit; }
 }
 
 .cta-olive {
-  background: #6B874C;
-  box-shadow: 0 10px 24px rgba(107, 135, 76, .22);
+   display: block;
+  width: min(calc(100% - 36px), 650px);
+  margin: 40px auto 0;
+  padding: 24px 32px;
+  border-radius: 12px;
+   background: #6B874C;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: clamp(1.25rem, 3.5vw, 2rem);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -.025em;
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+  box-shadow: 0 10px 24px rgba(36, 80, 255, .22);
 }
 
 .cta-olive:hover {
