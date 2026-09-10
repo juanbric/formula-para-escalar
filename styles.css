@@ -74,7 +74,7 @@ a { color: inherit; }
 .subhead {
   max-width: 760px;
   margin: 0 auto 50px;
-  font-size: clamp(1.525rem, 4vw, 2.975rem);
+  font-size: clamp(1.463rem, 4vw, 2.913rem);
   line-height: 1.08;
   font-weight: 500;
   letter-spacing: -.02em;
@@ -82,7 +82,7 @@ a { color: inherit; }
 
 .section-title {
   margin: 0 auto 36px;
-  font-size: clamp(2.075rem, 5.6vw, 4.075rem);
+  font-size: clamp(2.013rem, 5.6vw, 4.013rem);
   line-height: 1.03;
   letter-spacing: -.035em;
   font-weight: 800;
@@ -91,7 +91,7 @@ a { color: inherit; }
 .lead {
   max-width: 780px;
   margin: 40px auto 0;
-  font-size: clamp(1.225rem, 3.2vw, 2.075rem);
+  font-size: clamp(1.163rem, 3.2vw, 2.013rem);
   line-height: 1.35;
 }
 
