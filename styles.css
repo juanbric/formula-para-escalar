@@ -40,7 +40,7 @@ img { max-width: 100%; display: block; }
 a { color: inherit; }
 
 .container {
-  width: min(calc(100% - 44px), var(--max));
+  width: min(calc(100% - 52px), var(--max));
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ a { color: inherit; }
 
 .display {
   margin: 0 auto 34px;
-  font-size: clamp(2.875rem, 7.5vw, 6.075rem);
+  font-size: clamp(2.813rem, 7.5vw, 6.075rem);
   line-height: .98;
   letter-spacing: -.045em;
   font-weight: 800;
