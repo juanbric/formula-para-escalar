@@ -40,7 +40,7 @@ img { max-width: 100%; display: block; }
 a { color: inherit; }
 
 .container {
-  width: min(calc(100% - 36px), var(--max));
+  width: min(calc(100% - 44px), var(--max));
   margin: 0 auto;
 }
 
@@ -50,18 +50,18 @@ a { color: inherit; }
 .center { text-align: center; }
 
 .section {
-  padding: 82px 0;
+  padding: 96px 0;
 }
 
 .section-white { background: #fff; }
 .section-tint { background: var(--tint); }
 .section-final { background: #fbfaf8; }
 
-.hero { padding-top: 52px; }
+.hero { padding-top: 60px; }
 
 .display {
-  margin: 0 auto 28px;
-  font-size: clamp(3rem, 7.5vw, 6.2rem);
+  margin: 0 auto 34px;
+  font-size: clamp(2.875rem, 7.5vw, 6.075rem);
   line-height: .98;
   letter-spacing: -.045em;
   font-weight: 800;
@@ -73,16 +73,16 @@ a { color: inherit; }
 
 .subhead {
   max-width: 760px;
-  margin: 0 auto 42px;
-  font-size: clamp(1.65rem, 4vw, 3.1rem);
+  margin: 0 auto 50px;
+  font-size: clamp(1.525rem, 4vw, 2.975rem);
   line-height: 1.08;
   font-weight: 500;
   letter-spacing: -.02em;
 }
 
 .section-title {
-  margin: 0 auto 30px;
-  font-size: clamp(2.2rem, 5.6vw, 4.2rem);
+  margin: 0 auto 36px;
+  font-size: clamp(2.075rem, 5.6vw, 4.075rem);
   line-height: 1.03;
   letter-spacing: -.035em;
   font-weight: 800;
@@ -90,31 +90,31 @@ a { color: inherit; }
 
 .lead {
   max-width: 780px;
-  margin: 34px auto 0;
-  font-size: clamp(1.35rem, 3.2vw, 2.2rem);
+  margin: 40px auto 0;
+  font-size: clamp(1.225rem, 3.2vw, 2.075rem);
   line-height: 1.35;
 }
 
 .italic { font-style: italic; }
 
 .eyebrow {
-  margin: 26px 0 32px;
-  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+  margin: 32px 0 38px;
+  font-size: clamp(0.975rem, 2.4vw, 1.475rem);
   font-style: italic;
 }
 
 .cta {
   display: block;
   width: min(100%, 720px);
-  margin: 34px auto 0;
-  padding: 24px 26px;
+  margin: 40px auto 0;
+  padding: 26px 28px;
   border-radius: 14px;
   background: var(--lavender);
   color: #fff;
   text-decoration: none;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(1.2rem, 3.2vw, 2rem);
+  font-size: clamp(1.075rem, 3.2vw, 1.875rem);
   line-height: 1.1;
   font-weight: 900;
   letter-spacing: -.02em;
@@ -151,7 +151,7 @@ a { color: inherit; }
   display: grid;
   place-items: center;
   width: 100%;
-  margin: 36px auto;
+  margin: 44px auto;
   border: 2px dashed var(--border);
   border-radius: var(--radius);
   background:
@@ -160,7 +160,7 @@ a { color: inherit; }
   color: #8c857e;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9rem;
+  font-size: .775rem;
   font-weight: 700;
   letter-spacing: .04em;
   padding: 24px;
@@ -171,21 +171,21 @@ a { color: inherit; }
 .mockup-proof { min-height: 430px; }
 
 .checklist {
-  margin: 44px auto 28px;
+  margin: 52px auto 34px;
   display: grid;
-  gap: 28px;
+  gap: 34px;
 }
 
 .check-row {
   display: grid;
   grid-template-columns: 58px 1fr;
-  gap: 20px;
+  gap: 24px;
   align-items: start;
 }
 
 .check-row p {
   margin: 0;
-  font-size: clamp(1.35rem, 3vw, 2.1rem);
+  font-size: clamp(1.225rem, 3vw, 1.975rem);
   line-height: 1.35;
 }
 
@@ -198,25 +198,25 @@ a { color: inherit; }
   background: var(--lavender);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.875rem;
   font-weight: 900;
 }
 
 .more {
-  margin: 36px 0 22px;
-  font-size: clamp(2.3rem, 6vw, 4.6rem);
+  margin: 42px 0 26px;
+  font-size: clamp(2.175rem, 6vw, 4.475rem);
   line-height: 1;
 }
 
 .scroll-note {
-  margin: 34px auto 0;
+  margin: 40px auto 0;
   max-width: 760px;
-  font-size: clamp(1.1rem, 2.6vw, 1.55rem);
+  font-size: clamp(0.975rem, 2.6vw, 1.425rem);
 }
 
 .offer-card {
-  padding: 0 0 54px;
-  margin: 0 0 56px;
+  padding: 0 0 64px;
+  margin: 0 0 66px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -226,19 +226,19 @@ a { color: inherit; }
 }
 
 .offer-card h3 {
-  margin: 28px 0 22px;
-  font-size: clamp(2rem, 4.9vw, 3.5rem);
+  margin: 32px 0 26px;
+  font-size: clamp(1.875rem, 4.9vw, 3.375rem);
   line-height: 1.06;
   letter-spacing: -.03em;
 }
 
 .offer-card p {
-  margin: 0 0 18px;
-  font-size: clamp(1.25rem, 3vw, 2rem);
+  margin: 0 0 22px;
+  font-size: clamp(1.125rem, 3vw, 1.875rem);
 }
 
 .price-line {
-  font-size: clamp(1.5rem, 3.5vw, 2.25rem) !important;
+  font-size: clamp(1.375rem, 3.5vw, 2.125rem) !important;
 }
 
 .old-price {
@@ -252,18 +252,18 @@ a { color: inherit; }
 }
 
 .testimonial-intro {
-  font-size: clamp(1.25rem, 2.7vw, 1.8rem);
-  margin-bottom: 30px;
+  font-size: clamp(1.125rem, 2.7vw, 1.675rem);
+  margin-bottom: 36px;
 }
 
 .testimonial-grid {
   display: grid;
-  gap: 20px;
+  gap: 24px;
 }
 
 .testimonial {
   margin: 0;
-  padding: 28px;
+  padding: 32px;
   border: 1px solid var(--border);
   border-radius: 16px;
   background: #fff;
@@ -272,14 +272,14 @@ a { color: inherit; }
 
 .testimonial blockquote {
   margin: 0;
-  font-size: clamp(1.2rem, 2.6vw, 1.65rem);
+  font-size: clamp(1.075rem, 2.6vw, 1.525rem);
   line-height: 1.45;
 }
 
 .testimonial figcaption {
-  margin-top: 18px;
+  margin-top: 22px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: .875rem;
   font-weight: 700;
 }
 
@@ -293,28 +293,28 @@ a { color: inherit; }
   color: #fff;
   padding: 26px 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .95rem;
+  font-size: .825rem;
 }
 
 .footer p { margin: 0; opacity: .8; }
 
 @media (max-width: 720px) {
-  .section { padding: 58px 0; }
-  .hero { padding-top: 34px; }
+  .section { padding: 68px 0; }
+  .hero { padding-top: 40px; }
   .mockup-xl { min-height: 320px; }
   .mockup-lg { min-height: 260px; }
   .mockup-proof { min-height: 300px; }
   .check-row {
     grid-template-columns: 44px 1fr;
-    gap: 14px;
+    gap: 16px;
   }
   .check {
     width: 42px;
     height: 42px;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
   }
   .cta {
-    padding: 20px 18px;
+    padding: 22px 20px;
     border-radius: 12px;
   }
 }
