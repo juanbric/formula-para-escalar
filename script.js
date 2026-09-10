@@ -1,6 +1,6 @@
 (() => {
   const HOTMART_URL = "https://pay.hotmart.com/D107561639W?checkoutMode=10";
-  const META_PIXEL_ID = "YOUR_META_PIXEL_ID";
+  const META_PIXEL_ID = "1082179588056948";
 
   document.getElementById("year").textContent = new Date().getFullYear();
 
