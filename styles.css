@@ -249,6 +249,7 @@ a { color: inherit; }
 .offer-card:last-child {
   border-bottom: 0;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .offer-card h3 {
