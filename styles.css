@@ -218,6 +218,14 @@ a { color: inherit; }
   font-size: clamp(0.975rem, 2.6vw, 1.425rem);
 }
 
+.product-mockup {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  margin: 0 auto 40px;
+}
+
 .offer-card {
   padding: 0 0 64px;
   margin: 0 0 66px;
