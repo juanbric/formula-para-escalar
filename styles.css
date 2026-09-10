@@ -241,8 +241,8 @@ a { color: inherit; }
 }
 
 .offer-card {
-  padding: 0 0 64px;
-  margin: 0 0 66px;
+  padding: 0 0 32px;
+  margin: 0 0 32px;
   border-bottom: 1px solid var(--border);
 }
 
