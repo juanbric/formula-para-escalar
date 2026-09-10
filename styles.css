@@ -178,17 +178,12 @@ a { color: inherit; }
 
 .check-row {
   display: grid;
-  grid-template-columns: 58px 1fr;
-  gap: 24px;
-  align-items: start;
-}
-
-.check-row {
-  display: grid;
   grid-template-columns: 42px 1fr;
   gap: 20px;
   align-items: start;
 }
+
+.check-row p { margin: 0; font-size: clamp(1.225rem, 3vw, 1.975rem); line-height: 1.35; }
 
 .check {
   width: 38px;
