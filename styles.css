@@ -98,7 +98,7 @@ a { color: inherit; }
 .italic { font-style: italic; }
 
 .eyebrow {
-  margin: 32px 0 38px;
+  margin: 32px 0 16px;
   font-size: clamp(0.975rem, 2.4vw, 1.475rem);
   font-style: italic;
 }
