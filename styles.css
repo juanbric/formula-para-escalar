@@ -342,26 +342,24 @@ a { color: inherit; }
   color: var(--muted);
 }
 
-.mini-list.dash {
-  list-style: none;
-  padding: 0;
-  margin: 48px 0;
-}
+.mini-list {
+  max-width: 760px;
+  margin: 50px auto;
+  padding-left: 55px;
 
-.mini-list.dash li {
-  display: grid;
-  grid-template-columns: 40px 1fr;
-  column-gap: 18px;
-  align-items: start;
-
-  margin-bottom: 36px;
+  font-size: 32px;
+  line-height: 1.45;
   text-align: left;
 }
 
-.mini-list.dash li::before {
-  content: "—";
+.mini-list li {
+  padding-left: 12px;
+  margin-bottom: 32px;
+}
+
+.mini-list li::marker {
   color: #2450ff;
-  line-height: inherit;
+  font-size: 0.75em;
 }
 
 .comparison {
