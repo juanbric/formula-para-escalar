@@ -416,7 +416,7 @@ a { color: inherit; }
   display: block;
   width: min(calc(100% - 36px), 650px);
   margin: 40px auto 0;
-  padding: 24px 32px;
+  padding: 24px 20px;
   border-radius: 12px;
   background: var(--lavender);
   color: #fff;
