@@ -397,7 +397,7 @@ a { color: inherit; }
 }
 
 @media (max-width: 720px) {
-  .section { padding: 68px 0; }
+  .section { padding: 50px 0; }
   .hero { padding-top: 40px; }
   .mockup-xl { min-height: 320px; }
   .mockup-lg { min-height: 260px; }
