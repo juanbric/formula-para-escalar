@@ -345,18 +345,19 @@ a { color: inherit; }
 .mini-list {
   max-width: 760px;
   margin: 45px auto;
-  padding-left: 70px;
+  padding-left: 38px;
   text-align: left;
+    font-size: 20px;
 }
 
 .mini-list li {
   padding-left: 8px;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .mini-list li::marker {
   color: #2450ff;
-  font-size: 0.7em;
+  font-size: 1.2em;
 }
 
 .case-table {
