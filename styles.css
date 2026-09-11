@@ -342,6 +342,28 @@ a { color: inherit; }
   color: var(--muted);
 }
 
+.mini-list.dash {
+  list-style: none;
+  padding: 0;
+  margin: 48px 0;
+}
+
+.mini-list.dash li {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 18px;
+  align-items: start;
+
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+.mini-list.dash li::before {
+  content: "—";
+  color: #2450ff;
+  line-height: inherit;
+}
+
 .comparison {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
