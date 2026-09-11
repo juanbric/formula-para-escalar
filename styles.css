@@ -107,7 +107,7 @@ a { color: inherit; }
   display: block;
   width: min(calc(100% - 36px), 650px);
   margin: 40px auto 0;
-  padding: 24px 32px;
+  padding: 24px 28px;
   border-radius: 12px;
   background: var(--lavender);
   color: #fff;
@@ -336,7 +336,7 @@ a { color: inherit; }
 
 .microlegend {
   max-width: 640px;
-  margin: 14px auto 0;
+  margin: 24px auto 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(.85rem, 2.2vw, 1.05rem);
   color: var(--muted);
