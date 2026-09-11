@@ -107,7 +107,7 @@ a { color: inherit; }
   display: block;
   width: min(calc(100% - 36px), 650px);
   margin: 40px auto 0;
-  padding: 24px 28px;
+  padding: 24px 20px;
   border-radius: 12px;
   background: var(--lavender);
   color: #fff;
@@ -335,11 +335,65 @@ a { color: inherit; }
 }
 
 .microlegend {
-  max-width: 640px;
-  margin: 24px auto 0;
+  max-width: 600px;
+  margin: 20px auto 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(.85rem, 2.2vw, 1.05rem);
+  font-size: clamp(.7rem, 2.2vw, 1.05rem);
   color: var(--muted);
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 54px auto 20px;
+}
+
+.comparison-card {
+  padding: 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.comparison-label {
+  margin: 0 0 28px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: .06em;
+  color: var(--lavender);
+}
+
+.comparison-number {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 1.2rem;
+}
+
+.comparison-number strong {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.comparison-result {
+  margin: 28px 0 18px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 900;
+  color: var(--green);
+}
+
+.comparison-result--warning {
+  color: #c2352b;
+}
+
+@media (max-width: 720px) {
+  .comparison {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 720px) {
