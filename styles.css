@@ -550,3 +550,11 @@ a { color: inherit; }
   html { scroll-behavior: auto; }
   .cta { transition: none; }
 }
+
+.fit-yes {
+  color: #6B874C;
+}
+
+.fit-no {
+  color: #c2352b;
+}
