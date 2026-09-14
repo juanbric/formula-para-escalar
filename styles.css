@@ -627,13 +627,13 @@ a {
     letter-spacing: .08em;
   }
 
-  .hero .display {
-    max-width: 390px;
-    margin-bottom: 18px;
-    font-size: clamp(2.65rem, 11.4vw, 3.75rem);
-    line-height: .91;
-    letter-spacing: -.045em;
-  }
+ .hero .display {
+  max-width: 390px;
+  margin-bottom: 18px;
+  font-size: clamp(2.35rem, 10.2vw, 3.4rem);
+  line-height: .93;
+  letter-spacing: -.045em;
+}
 
   .hero .subhead {
     max-width: 390px;
