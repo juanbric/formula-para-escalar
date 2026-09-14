@@ -607,9 +607,6 @@ a {
 
 @media (max-width: 720px) {
 
-  .container {
-    width: min(calc(100% - 34px), var(--max));
-  }
 
   .section {
     padding: 50px 0;
