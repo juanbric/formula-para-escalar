@@ -616,6 +616,7 @@ a {
 
   .hero {
     padding-top: 24px;
+     padding-bottom: 2px;
   }
 
   .hero-kicker {
