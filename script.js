@@ -61,6 +61,14 @@
           currency: "MXN"
         });
       }
+
+      if (window.gtag) {
+        window.gtag("event", "checkout_click", {
+          product: "La Fórmula para Escalar",
+          value: 499,
+          currency: "MXN"
+        });
+      }
     });
   });
 })();
