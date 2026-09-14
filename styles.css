@@ -149,7 +149,7 @@ a {
 .lead {
   max-width: 780px;
   margin: 40px auto 0;
-  font-size: clamp(1.163rem, 3.2vw, 2.013rem);
+ font-size: clamp(1.463rem, 4vw, 2.913rem);
   line-height: 1.35;
 }
 
@@ -235,7 +235,7 @@ a {
   max-width: 600px;
   margin: 20px auto 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(.5rem, 2.2vw, 1.05rem);
+  font-size: clamp(.4rem, 2.2vw, 1.05rem);
   color: var(--muted);
 }
 
